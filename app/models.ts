@@ -76,7 +76,7 @@ export class Capture {
 type Coordinate = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
 
 // I wanted to use lat long cordinates, but it's a bit complicated
-// to calculate distance, so just to with the easiest for now
+// to calculate distance, so just go with the easiest for now
 export class Position {
   x: Coordinate;
   y: Coordinate;
